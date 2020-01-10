@@ -1,0 +1,143 @@
+<style>
+body{
+background-image: url("library.jpg"); /*You will specify your image path here.*/
+background-size: cover;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+}
+
+#a{
+	color:black;
+	}
+#b{
+	font-family: Comic Sans MS;
+	font-variant:small-caps;
+	font-size:80px;
+	text-align:center;
+	background-color:purple;
+	color:black;
+	position:top-left;
+	text-shadow:3px 2px black;
+	margin:10px;
+	padding:-10px;
+	margin-bottom:0px;
+	width:1300px;
+	height:100px;
+}
+#d{	
+		text-shadow:1px 1px black;
+		margin-left:750px;
+	
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+	z-index:100;
+	<!--position:fixed;-->
+   }
+
+li {
+    float: left;
+	z-index:100;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	z-index:100;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+	text-decoration:underline;
+	z-index:100;
+}
+
+li.dropdown {
+    display: inline-block;
+	z-index:100;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+	z-index:100;
+  
+   
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+	z-index:100;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: grey;z-index:100;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.b1{
+		
+		background-color:white;
+		border:solid 1px grey;
+		width:55%;
+		height:55%;
+		z-index:100;
+		
+}
+.b2{
+		
+		background-color:Transperant;
+		border:solid 1px grey;
+		border-radius:30px;
+		margin-left:570px;
+		margin-top:-100px;
+
+		width:55%;
+		height:70%;
+		color:white;
+		font-style:italic;
+		font-size:18px;
+		z-index:100;
+		
+}	
+#uo{
+	font-family: comic Sans MS;
+	font-variant:small-caps;
+	font-size:30px;
+	text-align:center;
+	color:white;
+	position:top-left;
+	padding:40px;
+	height: 100px; 
+	background-color:#f2d13e; 
+	margin-top:0px;
+	
+}
+
+
+#f{
+	height: 200px;
+	width:500px;
+	color:black;
+	background-color:yellow;
+}
+
+</style>
+
+
+
